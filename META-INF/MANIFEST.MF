@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: copyDiscount
+Bundle-SymbolicName: de.schoenbeck.beluga.copyDiscount
+Bundle-Version: 10.0.0.qualifier
+Service-Component: OSGI-INF/*.xml
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Require-Bundle: org.adempiere.base,
+ org.adempiere.base.process,
+ org.adempiere.plugin.utils
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: de.schoenbeck.beluga.copyDiscount
